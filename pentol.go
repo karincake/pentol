@@ -56,7 +56,7 @@ func Int64(i ...int64) *int64 {
 	return &x
 }
 
-func UInt(i ...uint) *uint {
+func Uint(i ...uint) *uint {
 	var x uint
 	if len(i) > 0 {
 		x = i[0]
@@ -64,7 +64,7 @@ func UInt(i ...uint) *uint {
 	return &x
 }
 
-func UInt8(i ...uint8) *uint8 {
+func Uint8(i ...uint8) *uint8 {
 	var x uint8
 	if len(i) > 0 {
 		x = i[0]
@@ -72,7 +72,7 @@ func UInt8(i ...uint8) *uint8 {
 	return &x
 }
 
-func UInt16(i ...uint16) *uint16 {
+func Uint16(i ...uint16) *uint16 {
 	var x uint16
 	if len(i) > 0 {
 		x = i[0]
@@ -80,7 +80,7 @@ func UInt16(i ...uint16) *uint16 {
 	return &x
 }
 
-func UInt32(i ...uint32) *uint32 {
+func Uint32(i ...uint32) *uint32 {
 	var x uint32
 	if len(i) > 0 {
 		x = i[0]
@@ -88,7 +88,7 @@ func UInt32(i ...uint32) *uint32 {
 	return &x
 }
 
-func UInt64(i ...uint64) *uint64 {
+func Uint64(i ...uint64) *uint64 {
 	var x uint64
 	if len(i) > 0 {
 		x = i[0]
