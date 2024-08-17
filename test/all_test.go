@@ -78,7 +78,7 @@ func TestInt64(t *testing.T) {
 }
 
 func TestUInt(t *testing.T) {
-	got := pentol.UInt()
+	got := pentol.Uint()
 	v := reflect.ValueOf(got)
 	e := v.Elem().Kind()
 
@@ -88,7 +88,7 @@ func TestUInt(t *testing.T) {
 }
 
 func TestUInt8(t *testing.T) {
-	got := pentol.UInt8()
+	got := pentol.Uint8()
 	v := reflect.ValueOf(got)
 	e := v.Elem().Kind()
 
@@ -98,7 +98,7 @@ func TestUInt8(t *testing.T) {
 }
 
 func TestUInt16(t *testing.T) {
-	got := pentol.UInt16()
+	got := pentol.Uint16()
 	v := reflect.ValueOf(got)
 	e := v.Elem().Kind()
 
@@ -108,7 +108,7 @@ func TestUInt16(t *testing.T) {
 }
 
 func TestUInt32(t *testing.T) {
-	got := pentol.UInt32()
+	got := pentol.Uint32()
 	v := reflect.ValueOf(got)
 	e := v.Elem().Kind()
 
@@ -118,7 +118,7 @@ func TestUInt32(t *testing.T) {
 }
 
 func TestUInt64(t *testing.T) {
-	got := pentol.UInt64()
+	got := pentol.Uint64()
 	v := reflect.ValueOf(got)
 	e := v.Elem().Kind()
 
